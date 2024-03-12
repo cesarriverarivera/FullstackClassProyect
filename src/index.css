@@ -116,6 +116,8 @@ h3 {
 
 .form-group {
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .form-group input,
@@ -130,9 +132,11 @@ h3 {
 }
 
 .form-group label {
-  text-align: left;
-  display: block;
+  text-align: right;
+  color: #555;
+  width: 100%;
   margin: 0 0 5px 3px;
+  font-size: 0.8rem;
 }
 
 .btn {
